@@ -1,18 +1,29 @@
+/*@media only screen and (min-width: 1023px) {
+  .chat {
+    display: none;
+  }
+}*/
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   background: #FBCEB1;
   width: 100%;
 }
 header {
-  height: 12vh;
+  -webkit-box-pack: justify;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: auto;
   width: 100%;
   background: #1DBBF0;
 }
 .row {
   padding: 0%;
   margin: 0%;
+  width: 100%;
+  height: 100%;
 }
 .container-fluid {
   padding: 0%;
@@ -20,16 +31,40 @@ header {
 .wrap {
   display: block;
   width: 100%;
+  height: auto;
   padding: 1rem; 
 }
 button {
   background: #D9941A;
+  width: 100%;
+  height: auto;
 }
 .button-steam {
+  white-space: normal;
+  word-break: break-word;
   background: #007A47;
-  height: 5rem;
+  height: 75%;
   color: #FFFFFF;
   text-transform: uppercase;
+  font-size: 0.8vw; 
+}
+.button-steam:before {
+  content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
+}
+@media screen and (max-width: 800px) {
+  .button-steam:before {
+    content: "STEAM";
+  }
+  .button-steam {
+  white-space: normal;
+  word-break: break-word;
+  background: #007A47;
+  height: 75%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+  width: 10px; 
+}
 }
 .main-content {
   padding: 0%;
