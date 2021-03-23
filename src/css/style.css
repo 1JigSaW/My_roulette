@@ -23,16 +23,21 @@ header {
   padding: 0%;
   margin: 0%;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .container-fluid {
   padding: 0%;
+
 }
 .wrap {
   display: block;
   width: 100%;
+  height: auto; 
+  padding: 1rem;
+}
+.logo_cl {
   height: auto;
-  padding: 1rem; 
+  width: 100%;
 }
 button {
   background: #D9941A;
@@ -43,15 +48,16 @@ button {
   white-space: normal;
   word-break: break-word;
   background: #007A47;
-  height: 75%;
+  height: auto;
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 0.8vw; 
+  padding: 1rem;
 }
 .button-steam:before {
   content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 910px) {
   .button-steam:before {
     content: "STEAM";
   }
@@ -118,7 +124,10 @@ button {
   height: 90%;
   background: #FFFFFF;
   border-radius: 8px;
-  text-align: right; 
+  text-align: right;
+  font-size: 0.8vw;
+  white-space: normal;
+  word-break: break-word; 
 }
 .message-input {
   display: inline-block;
@@ -150,6 +159,9 @@ button {
   line-height: 2.8;
   margin-right: 0%;
   font-size: 0.8rem;
+  font-size: 0.8vw;
+  white-space: normal;
+  word-break: break-word; 
 }
 .crush-main {
   width: 100%;
@@ -258,10 +270,8 @@ button {
   text-align: center;
   color: #FFFFFF;
 }
-.buttons-coef {
-  height: 20%;
-}
 .button-coef {
+  height: 20%;
   float: left;
   margin-left: 2%;
   width: 22.5%;
@@ -342,6 +352,11 @@ button {
   margin-left: 1%;
   text-align: center;
   line-height: 2.5;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  font-size: 0.8vw;
+  white-space: normal;
+  word-break: break-word; 
 }
 .statistic2 {
   float: left;
@@ -352,6 +367,9 @@ button {
   margin-left: 1%;
   text-align: center;
   line-height: 2.5;
+  font-size: 0.8vw;
+  white-space: normal;
+  word-break: break-word; 
 }
 .statistic3 {
   float: left;
@@ -362,6 +380,9 @@ button {
   margin-left: 1%;
   text-align: center;
   line-height: 2.5;
+  font-size: 0.8vw;
+  white-space: normal;
+  word-break: break-word; 
 }
 .bets-section {
   overflow-y: scroll;
