@@ -1,0 +1,395 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #FBCEB1;
+  width: 100%;
+}
+header {
+  height: 12vh;
+  width: 100%;
+  background: #1DBBF0;
+}
+.row {
+  padding: 0%;
+  margin: 0%;
+}
+.container-fluid {
+  padding: 0%;
+}
+.wrap {
+  display: block;
+  width: 100%;
+  padding: 1rem; 
+}
+button {
+  background: #D9941A;
+}
+.button-steam {
+  background: #007A47;
+  height: 5rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.main-content {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+.main1 {
+  padding: 0%;
+  margin: 0%;
+}
+.main2 {
+  padding-left: 0%;
+  padding-right: 1%;
+  margin: 0%;
+}
+.chat-section {
+  width: 100%;
+  background: #66CFF2;
+  height: 88vh;
+}
+.chat {
+  overflow-y: scroll;
+  width: 100%;
+  height: 87%;
+  background: #66CFF2;
+}
+.playground {
+  height: 100%;
+  background: #2F6070;
+  padding: 0%;
+  margin: 0%;
+}
+.message {
+  width: 80%;
+  height: 10%;
+  background: #1793BD;
+  border-radius: 8px;
+  margin-left: 11%;
+  padding-top: 1.6%;
+  padding-left: 1.5%;
+  margin-top: 4%; 
+}
+.photo-chat {
+  width: 100%;
+  height: 90%;
+  background: #FFFFFF;
+  border-radius: 8px; 
+}
+.text-chat {
+  width: 100%;
+  height: 90%;
+  background: #FFFFFF;
+  border-radius: 8px;
+  text-align: right; 
+}
+.message-input {
+  display: inline-block;
+  width: 90%;
+  height: 8%;
+  background: #1793BD;
+  border-radius: 8px;
+  margin-left: 5.5%;
+  padding-top: 1.6%;
+  padding-left: 1.5%;
+  margin-top: 4%; 
+}
+.form-message-input {
+  width: 100%;
+  height: 100%; 
+  padding: 0%;
+  margin: 0%;
+}
+.button-message-input {
+  width: 10%;
+  padding-left: 3%;
+  margin: 0%;
+}
+.input-text {
+  line-height: 2.2;
+
+}
+.button-chat {
+  line-height: 2.8;
+  margin-right: 0%;
+  font-size: 0.8rem;
+}
+.crush-main {
+  width: 100%;
+  height: 40%;
+  background: #4B99B3;
+  border-radius: 0px 0px 8px 8px;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+.crush-roul {
+  float: left;
+  height: 90%;
+  width: 70%;
+  background: #306273;
+  border-radius: 10px;
+}
+.interface {
+  float: left;
+  height: 90%;
+  width: 27%;
+  background: #6BDAFF;
+  border-radius: 10px;
+  margin-left: 1%;
+}
+.skins {
+  width: 100%;
+  height: 80%;
+}
+.inventory {
+  margin: 0%;
+  padding:0%;
+  font-size: 300%;
+  text-align: center;
+  line-height: 4.5;
+}
+.buy-skins {
+  float: left;
+  width: 48.5%;
+  height: 18%;
+  background: #306273;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.derive {
+  float: left;
+  width: 48.5%;
+  height: 18%;
+  background: #306273;
+  border-radius: 10px;
+  margin-left: 1%;
+  margin-top: 0.5%;
+}
+.animation {
+  float: left;
+  height: 89%;
+  width: 65%;
+  border-radius: 10px;
+  background: #244E5C;
+  margin: 1.5%;
+}
+.numbers {
+  float: left;
+  height: 89%;
+  width: 30.5%;
+  border-radius: 10px;
+  background: #244E5C;
+  margin-top: 1.5%;
+}
+.coef {
+  height: 53%;
+  width: 96%;
+  margin: 2%;
+  border-radius: 10px;
+  background: #19343D;
+}
+.your-skin {
+  float: left;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 300%;
+  line-height: 2.5;
+}
+.your-win {
+  float: left;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 300%;
+  line-height: 2.5;
+}
+.your-skin-2 {
+  float: left;
+  width: 50%;
+  height: 20%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.your-win-2 {
+  float: left;
+  width: 50%;
+  height: 20%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.buttons-coef {
+  height: 20%;
+}
+.button-coef {
+  float: left;
+  margin-left: 2%;
+  width: 22.5%;
+  background: #69D9FF;
+}
+.input-coef {
+  float: left;
+  width: 30%;
+  height: 20%;
+  margin-left: 2%;
+}
+.button-coef-big {
+  float: left;
+  width: 64%;
+  height: 20%;
+  margin-left: 2%;
+}
+.last-coef-menu {
+  width: 98.7%;
+  height: 5%;
+  background: #4B99B3;
+  border-radius: 10px;
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  padding-top: 0.2%;
+  text-align: center;
+}
+.last-coef-win {
+  float: left;
+  width: 5%;
+  height: 93%;
+  border-radius: 10px;
+  margin-left: 0.246%;
+  background: #0BDA51;
+  text-align: center;
+  line-height: 2.1; 
+}
+.last-coef-middle {
+  float: left;
+  width: 5%;
+  height: 93%;
+  border-radius: 10px;
+  margin-left: 0.246%;
+  background: #FFFF66;
+  text-align: center;
+  line-height: 2.1; 
+}
+.last-coef-lose {
+  float: left;
+  width: 5%;
+  height: 93%;
+  border-radius: 10px;
+  margin-left: 0.246%;
+  background: #FF2400;
+  text-align: center;
+  line-height: 2.1; 
+}
+.animation-main {
+  width: 99.1%;
+  height: 75%;
+  background: #19343D;
+  border-radius: 10px;
+  margin: 0.5%;
+}
+.statistics {
+  width: 99.1%;
+  height: 21%;
+  background: #19343D;
+  border-radius: 10px;
+  margin: 0.5%;
+  padding-top: 0.7%;
+}
+.statistic1 {
+  float: left;
+  width: 32.1%;
+  height: 90%;
+  background: #1DBBF0;
+  border-radius: 10px;
+  margin-left: 1%;
+  text-align: center;
+  line-height: 2.5;
+}
+.statistic2 {
+  float: left;
+  width: 32.1%;
+  height: 90%;
+  background: #1DBBF0;
+  border-radius: 10px;
+  margin-left: 1%;
+  text-align: center;
+  line-height: 2.5;
+}
+.statistic3 {
+  float: left;
+  width: 32.1%;
+  height: 90%;
+  background: #1DBBF0;
+  border-radius: 10px;
+  margin-left: 1%;
+  text-align: center;
+  line-height: 2.5;
+}
+.bets-section {
+  overflow-y: scroll;
+  width: 98.7%;
+  height: 52%;
+  margin: 0.5%;
+  border-radius: 10px;
+/*  background: #19343D;*/
+}
+.bets-one {
+  width: 99.5%;
+  height: 20%;
+  border-radius: 10px;
+  background: #69D9FF;
+  margin-bottom: 0.5%;
+  margin-right: 0.5%;
+  padding-top: 0.5%;
+}
+.bets-photo {
+  float: left;
+  width: 6%;
+  height: 91%;
+  border-radius: 10px;
+  background: #19343D;
+  margin-left: 1%;
+}
+.bets-your {
+  float: left;
+  width: 6%;
+  height: 91%;
+  border-radius: 10px;
+  background: #19343D;
+  margin-left: 1%;
+}
+.bets-money {
+  float: left;
+  width: 6%;
+  height: 91%;
+  border-radius: 10px;
+  background: #19343D;
+  margin-left: 65%;
+}
+.bets-win {
+  float: left;
+  width: 6%;
+  height: 91%;
+  border-radius: 10px;
+  background: #19343D;
+  margin-left: 1%;
+}
+.bets-result {
+  float: left;
+  width: 6%;
+  height: 91%;
+  border-radius: 10px;
+  background: #19343D;
+  margin-left: 1%;
+}
+.button-interface-buy {
+  width: 100%;
+  height: 100%;
+}
+.button-interface-derive {
+  width: 100%;
+  height: 100%;
+}
