@@ -4,7 +4,7 @@
   }
 }*/
 body {
-  display: flex;
+  display: block;
   flex-direction: column;
   height: auto;
   background: #FBCEB1;
@@ -92,6 +92,7 @@ button {
   padding-left: 0%;
   padding-right: 1%;
   margin: 0%;
+  height: auto;
 }
 .chat-section {
   width: 100%;
@@ -111,14 +112,15 @@ button {
   margin: 0%;
 }
 .message {
-  width: 80%;
-  height: 10%;
+  width: 95%;
+  height: 9%;
   background: #1793BD;
   border-radius: 8px;
-  margin-left: 11%;
+  margin-left: 2.5%;
   padding-top: 1.6%;
   padding-left: 1.5%;
   margin-top: 4%; 
+  min-width: 100;
 }
 .photo-chat {
   width: 100%;
