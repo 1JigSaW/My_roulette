@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   height: auto;
   background: #FBCEB1;
-  width: 100%;
+  width: auto;
 }
 header {
   -webkit-box-pack: justify;
@@ -19,6 +19,10 @@ header {
   width: 100%;
   background: #1DBBF0;
 }
+/*p {
+  height: auto;
+  width: 100%;
+}*/
 .row {
   padding: 0%;
   margin: 0%;
@@ -27,6 +31,7 @@ header {
 }
 .container-fluid {
   padding: 0%;
+  height: 100%;
 
 }
 .wrap {
@@ -36,8 +41,10 @@ header {
   padding: 1rem;
 }
 .logo_cl {
-  height: auto;
-  width: 100%;
+  max-height: auto;
+  width: 85%;
+  padding: 1%;
+  min-width: 300px;
 }
 button {
   background: #D9941A;
@@ -57,7 +64,7 @@ button {
 .button-steam:before {
   content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
 }
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1023px) {
   .button-steam:before {
     content: "STEAM";
   }
@@ -158,10 +165,14 @@ button {
 .button-chat {
   line-height: 2.8;
   margin-right: 0%;
-  font-size: 0.8rem;
   font-size: 0.8vw;
-  white-space: normal;
-  word-break: break-word; 
+  white-space: normal; 
+  background: #FFFFFF;
+  height: 100%;
+}
+.img_sent {
+  width: 10;
+  height: 37;
 }
 .crush-main {
   width: 100%;
@@ -342,6 +353,7 @@ button {
   border-radius: 10px;
   margin: 0.5%;
   padding-top: 0.7%;
+  padding-left: 1.5%; 
 }
 .statistic1 {
   float: left;
@@ -349,14 +361,14 @@ button {
   height: 90%;
   background: #1DBBF0;
   border-radius: 10px;
-  margin-left: 1%;
+  padding-left: 1%;
   text-align: center;
   line-height: 2.5;
-  padding-top: 0.3%;
-  padding-bottom: 0.3%;
-  font-size: 0.8vw;
+  font-size: 1vw;
+  font-size: 1.8vmin;
   white-space: normal;
-  word-break: break-word; 
+  word-break: break-word;
+  margin-top: 0.2%; 
 }
 .statistic2 {
   float: left;
@@ -367,9 +379,11 @@ button {
   margin-left: 1%;
   text-align: center;
   line-height: 2.5;
-  font-size: 0.8vw;
+  font-size: 1vw;
+  font-size: 1.8vmin;
   white-space: normal;
   word-break: break-word; 
+  margin-top: 0.2%; 
 }
 .statistic3 {
   float: left;
@@ -380,9 +394,11 @@ button {
   margin-left: 1%;
   text-align: center;
   line-height: 2.5;
-  font-size: 0.8vw;
+  font-size: 1vw;
+  font-size: 1.8vmin;
   white-space: normal;
   word-break: break-word; 
+  margin-top: 0.2%; 
 }
 .bets-section {
   overflow-y: scroll;
