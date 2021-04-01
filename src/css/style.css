@@ -8,14 +8,14 @@ body {
   flex-direction: column;
   height: 100%;
   background: #FBCEB1;
-  width: auto;
+  width: 100%;
 }
 header {
   -webkit-box-pack: justify;
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: auto;
+  height: 12%;
   width: 100%;
   background: #1DBBF0;
 }
@@ -32,8 +32,7 @@ header {
 .container-fluid {
   padding: 0%;
   margin: 0%;
-
-
+  width: 100%;
 }
 .wrap {
   display: block;
@@ -189,7 +188,7 @@ button {
 }*/
 .crush-main {
   width: 100%;
-  height: 40%;
+  height: 20vw;
   background: #4B99B3;
   border-radius: 0px 0px 8px 8px;
   padding-top: 2%;
@@ -268,7 +267,8 @@ button {
   height: 80%;
   text-align: center;
   color: #FFFFFF;
-  font-size: 300%;
+  font-size: 2.8vw;
+  white-space: normal;
   line-height: 2.5;
 }
 .your-win {
@@ -277,7 +277,8 @@ button {
   height: 80%;
   text-align: center;
   color: #FFFFFF;
-  font-size: 300%;
+  font-size: 2.8vw;
+  white-space: normal;
   line-height: 2.5;
 }
 .your-skin-2 {
@@ -315,7 +316,7 @@ button {
 }
 .last-coef-menu {
   width: 98.7%;
-  height: 5%;
+  height: 2.5vw;
   background: #4B99B3;
   border-radius: 10px;
   margin: 0.5% 0.5% 0.5% 0.5%;
@@ -378,7 +379,6 @@ button {
   text-align: center;
   line-height: 2.5;
   font-size: 1vw;
-  font-size: 1.8vmin;
   white-space: normal;
   word-break: break-word;
   margin-top: 0.2%; 
@@ -393,7 +393,6 @@ button {
   text-align: center;
   line-height: 2.5;
   font-size: 1vw;
-  font-size: 1.8vmin;
   white-space: normal;
   word-break: break-word; 
   margin-top: 0.2%; 
@@ -408,7 +407,6 @@ button {
   text-align: center;
   line-height: 2.5;
   font-size: 1vw;
-  font-size: 1.8vmin;
   white-space: normal;
   word-break: break-word; 
   margin-top: 0.2%; 
@@ -422,8 +420,8 @@ button {
 /*  background: #19343D;*/
 }
 .bets-one {
-  width: 99.5%;
-  height: 20%;
+  width: 80.5vw;
+  height: 5vw;
   border-radius: 10px;
   background: #69D9FF;
   margin-bottom: 0.5%;
