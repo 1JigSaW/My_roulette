@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: relative;
-  height: 12%;
+  height: 6vw;
   width: 100%;
   background: #1DBBF0;
 }
@@ -33,6 +33,7 @@ header {
   padding: 0%;
   margin: 0%;
   width: 100%;
+  height: 100%;
 }
 .wrap {
   display: block;
@@ -41,10 +42,9 @@ header {
   padding: 1rem;
 }
 .logo_cl {
-  max-height: auto;
+  height: 6vw;
   width: 85%;
   padding: 1%;
-  min-width: 300px;
 }
 button {
   background: #D9941A;
@@ -55,16 +55,15 @@ button {
   white-space: normal;
   word-break: break-word;
   background: #007A47;
-  height: auto;
+  height: 4vw;
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 0.8vw; 
-  padding: 1rem;
 }
 .button-steam:before {
   content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
 }
-@media screen and (max-width: 1023px) {
+/*@media screen and (max-width: 1023px) {
   .button-steam:before {
     content: "STEAM";
   }
@@ -77,7 +76,7 @@ button {
   text-transform: uppercase;
   font-size: 0.8vw;
   width: 10px; 
-}
+}*/
 }
 .main-content {
   height: 88%;
@@ -208,6 +207,7 @@ button {
   background: #6BDAFF;
   border-radius: 10px;
   margin-left: 1%;
+
 }
 .skins {
   width: 100%;
@@ -218,7 +218,8 @@ button {
   padding:0%;
   font-size: 300%;
   text-align: center;
-  line-height: 4.5;
+  line-height: 5.5;
+  font-size: 2.5vw;
 }
 .buy-skins {
   float: left;
@@ -287,6 +288,7 @@ button {
   height: 20%;
   text-align: center;
   color: #FFFFFF;
+  font-size: 1vw;
 }
 .your-win-2 {
   float: left;
@@ -294,13 +296,17 @@ button {
   height: 20%;
   text-align: center;
   color: #FFFFFF;
+  font-size: 1vw;
 }
 .button-coef {
   height: 20%;
   float: left;
   margin-left: 2%;
+  margin-bottom: 1%; 
+/*  padding: 1%;*/
   width: 22.5%;
   background: #69D9FF;
+  font-size: 1vw;
 }
 .input-coef {
   float: left;
@@ -313,6 +319,7 @@ button {
   width: 64%;
   height: 20%;
   margin-left: 2%;
+  font-size: 1vw;
 }
 .last-coef-menu {
   width: 98.7%;
@@ -331,7 +338,8 @@ button {
   margin-left: 0.246%;
   background: #0BDA51;
   text-align: center;
-  line-height: 2.1; 
+  line-height: 2.1;
+  font-size: 1vw; 
 }
 .last-coef-middle {
   float: left;
@@ -341,7 +349,8 @@ button {
   margin-left: 0.246%;
   background: #FFFF66;
   text-align: center;
-  line-height: 2.1; 
+  line-height: 2.1;
+  font-size: 1vw; 
 }
 .last-coef-lose {
   float: left;
@@ -352,6 +361,7 @@ button {
   background: #FF2400;
   text-align: center;
   line-height: 2.1; 
+  font-size: 1vw;
 }
 .animation-main {
   width: 99.1%;
@@ -471,8 +481,10 @@ button {
 .button-interface-buy {
   width: 100%;
   height: 100%;
+  font-size: 1vw;
 }
 .button-interface-derive {
   width: 100%;
   height: 100%;
+  font-size: 1vw;
 }
