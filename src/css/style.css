@@ -9,13 +9,14 @@ body {
   height: 100%;
   background: #FBCEB1;
   width: 100%;
+  background-size: cover;
+  background-attachment: fixed; 
 }
 header {
-  -webkit-box-pack: justify;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  height: 6vw;
+/*  -webkit-box-pack: justify;
+  display: flex;*/
+  /*height: 6vw;*/
+  height: 12.3%;
   width: 100%;
   background: #1DBBF0;
 }
@@ -33,7 +34,8 @@ header {
   padding: 0%;
   margin: 0%;
   width: 100%;
-  /*height: 100%;*/
+  height: auto;
+
 }
 .wrap {
   display: block;
@@ -87,13 +89,13 @@ button {
 .main1 {
   padding: 0%;
   margin: 0%;
-  height: auto;
+  height: 100%;
 }
 .main2 {
   padding-left: 0%;
   padding-right: 1%;
   margin: 0%;
-  height: auto;
+  height: 100%;
 }
 .chat-section {
   width: 100%;
@@ -113,6 +115,10 @@ button {
   background: #2F6070;
   padding: 0%;
   margin: 0%;
+  background-size: cover;
+  background-attachment: fixed; 
+  position: relative;
+  display: block;
 }
 .message {
   width:14vw;
@@ -424,14 +430,14 @@ button {
 }
 .bets-section {
   overflow-y: scroll;
-  width: 98.7%;
-  height: 44%;
+  width: 99%;
+  height: 50%;
   margin: 0.5%;
   border-radius: 10px;
 /*  background: #19343D;*/
 }
 .bets-one {
-  width: 80.5vw;
+  width: 79.5vw;
   height: 5vw;
   border-radius: 10px;
   background: #69D9FF;
