@@ -13,9 +13,9 @@ body {
   background-attachment: fixed; 
 }
 header {
-/*  -webkit-box-pack: justify;
+  /*-webkit-box-pack: justify;
   display: flex;*/
-  /*height: 6vw;*/
+/*  height: 10vh;*/
   height: 12.3%;
   width: 100%;
   background: #1DBBF0;
@@ -431,10 +431,12 @@ button {
 .bets-section {
   overflow-y: scroll;
   width: 99%;
-  height: 50%;
+  height: 45%;
   margin: 0.5%;
   border-radius: 10px;
-/*  background: #19343D;*/
+  background-size: cover;
+  background-attachment: fixed; 
+  position: relative;
 }
 .bets-one {
   width: 79.5vw;
@@ -494,4 +496,12 @@ button {
   width: 100%;
   height: 100%;
   font-size: 1vw;
+}
+
+@media screen and (max-width: 1023px) {
+  header {
+    height: 12.3%;
+    width: 100%;
+    background: #1DBBF0;
+  }
 }
