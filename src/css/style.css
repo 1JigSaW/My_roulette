@@ -1,507 +1,538 @@
-/*@media only screen and (min-width: 1023px) {
-  .chat {
+
+  footer {
     display: none;
   }
-}*/
-body {
-  display: block;
-  flex-direction: column;
-  height: 100%;
-  background: #FBCEB1;
-  width: 100%;
-  background-size: cover;
-  background-attachment: fixed; 
-}
-header {
-  /*-webkit-box-pack: justify;
-  display: flex;*/
-/*  height: 10vh;*/
-  height: 12.3%;
-  width: 100%;
-  background: #1DBBF0;
-}
-/*p {
-  height: auto;
-  width: 100%;
-}*/
-.row {
-  padding: 0%;
-  margin: 0%;
-  width: 100%;
-  /*height: 100%;*/
-}
-.container-fluid {
-  padding: 0%;
-  margin: 0%;
-  width: 100%;
-  height: auto;
-
-}
-.wrap {
-  display: block;
-  width: 100%;
-  height: auto; 
-  padding: 1rem;
-}
-.logo_cl {
-  height: 6vw;
-  width: 85%;
-  padding: 1%;
-}
-button {
-  background: #D9941A;
-  width: 100%;
-  height: 100%;
-}
-.button-steam {
-  white-space: normal;
-  word-break: break-word;
-  background: #007A47;
-  height: 4vw;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 0.8vw; 
-}
-.button-steam:before {
-  content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
-}
-/*@media screen and (max-width: 1023px) {
-  .button-steam:before {
-    content: "STEAM";
+  body {
+    display: block;
+    flex-direction: column;
+    height: 100%;
+    background: #FBCEB1;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed; 
   }
-  .button-steam {
-  white-space: normal;
-  word-break: break-word;
-  background: #007A47;
-  height: 75%;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-size: 0.8vw;
-  width: 10px; 
-}*/
-}
-.main-content {
-  height: 88%;
-  padding: 0%;
-  margin: 0%;
-  width: 100%;
-}
-.main1 {
-  padding: 0%;
-  margin: 0%;
-  height: 100%;
-}
-.main2 {
-  padding-left: 0%;
-  padding-right: 1%;
-  margin: 0%;
-  height: 100%;
-}
-.chat-section {
-  width: 100%;
-  background: #66CFF2;
-  height: 87.7vh;
-}
-.chat {
-  overflow-y: scroll;
-  width: 100%;
-  height: 87%;
-  background: #66CFF2;
-  position: relative;
-  display: block;
-}
-.playground {
-  height: 87.7vh;
-  background: #2F6070;
-  padding: 0%;
-  margin: 0%;
-  background-size: cover;
-  background-attachment: fixed; 
-  position: relative;
-  display: block;
-}
-.message {
-  width:14vw;
-  height:3vw;
-  background: #1793BD;
-  border-radius: 8px;
-  margin-left: 2.5%;
-  margin-right: 4%;
-  padding-top: 1.6%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  margin-top: 4%; 
-}
-.photo-chat {
-  width: 100%;
-  height: 90%;
-  background: #FFFFFF;
-  border-radius: 8px; 
-}
-
-.text-chat {
-  width: 100%;
-  height: 90%;
-  background: #FFFFFF;
-  border-radius: 8px;
-  text-align: right;
-  font-size: 0.8vw;
-  white-space: normal;
-  word-break: break-word; 
-}
-.message-input {
-  width:98%;
-  height:2.6vw;
-  background: #1793BD;
-  border-radius: 8px;
-  margin-left: 1.5%;
-  padding-top: 1.6%;
-  padding-left: 1.5%;
-  padding-bottom: 1.5%;
-  margin-bottom: 1.6%;
-  margin-top: 4%; 
-}
-.form-message-input {
-  width: 100%;
-  height: auto;
-  padding: 0%;
-  margin: 0%;
-  font-size: 0.8vw;
-  white-space: normal;
-}
-.button-message-input {
-  width: 100%;
-  padding-left: 2%;
-  margin: 0%;
-  /*min-height: 2rem;*/
-}
-
-.input-text {
-  width: 100%;
-  height: 100%;
-  font-size: 0.8vw;
-  white-space: normal;
-
-}
-.button-chat {
-  width: 100%;
-  height: 100%;
-  background: #FFFFFF;
-}
-/*.img_sent {*/
-/*  min-width: 15px;
-  min-height: 15px;
-}*/
-.crush-main {
-  width: 100%;
-  height: 20vw;
-  background: #4B99B3;
-  border-radius: 0px 0px 8px 8px;
-  padding-top: 2%;
-  padding-left: 2%;
-}
-.crush-roul {
-  float: left;
-  height: 90%;
-  width: 70%;
-  background: #306273;
-  border-radius: 10px;
-}
-.interface {
-  float: left;
-  height: 90%;
-  width: 27%;
-  background: #6BDAFF;
-  border-radius: 10px;
-  margin-left: 1%;
-
-}
-.skins {
-  width: 100%;
-  height: 80%;
-}
-.inventory {
-  margin: 0%;
-  padding:0%;
-  font-size: 300%;
-  text-align: center;
-  line-height: 5.5;
-  font-size: 2.5vw;
-}
-.buy-skins {
-  float: left;
-  width: 48.5%;
-  height: 18%;
-  background: #306273;
-  border-radius: 10px;
-  margin-left: 1%;
-  margin-top: 0.5%;
-}
-.derive {
-  float: left;
-  width: 48.5%;
-  height: 18%;
-  background: #306273;
-  border-radius: 10px;
-  margin-left: 1%;
-  margin-top: 0.5%;
-}
-.animation {
-  float: left;
-  height: 89%;
-  width: 65%;
-  border-radius: 10px;
-  background: #244E5C;
-  margin: 1.5%;
-}
-.numbers {
-  float: left;
-  height: 89%;
-  width: 30.5%;
-  border-radius: 10px;
-  background: #244E5C;
-  margin-top: 1.5%;
-}
-.coef {
-  height: 53%;
-  width: 96%;
-  margin: 2%;
-  border-radius: 10px;
-  background: #19343D;
-}
-.your-skin {
-  float: left;
-  width: 50%;
-  height: 80%;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 2.8vw;
-  white-space: normal;
-  line-height: 2.5;
-}
-.your-win {
-  float: left;
-  width: 50%;
-  height: 80%;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 2.8vw;
-  white-space: normal;
-  line-height: 2.5;
-}
-.your-skin-2 {
-  float: left;
-  width: 50%;
-  height: 20%;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 1vw;
-}
-.your-win-2 {
-  float: left;
-  width: 50%;
-  height: 20%;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 1vw;
-}
-.button-coef {
-  height: 20%;
-  float: left;
-  margin-left: 2%;
-  margin-bottom: 1%; 
-/*  padding: 1%;*/
-  width: 22.5%;
-  background: #69D9FF;
-  font-size: 1vw;
-}
-.input-coef {
-  float: left;
-  width: 30%;
-  height: 20%;
-  margin-left: 2%;
-}
-.button-coef-big {
-  float: left;
-  width: 64%;
-  height: 20%;
-  margin-left: 2%;
-  font-size: 1vw;
-}
-.last-coef-menu {
-  width: 98.7%;
-  height: 2.5vw;
-  background: #4B99B3;
-  border-radius: 10px;
-  margin: 0.5% 0.5% 0.5% 0.5%;
-  padding-top: 0.2%;
-  text-align: center;
-}
-.last-coef-win {
-  float: left;
-  width: 5%;
-  height: 93%;
-  border-radius: 10px;
-  margin-left: 0.246%;
-  background: #0BDA51;
-  text-align: center;
-  line-height: 2.1;
-  font-size: 1vw; 
-}
-.last-coef-middle {
-  float: left;
-  width: 5%;
-  height: 93%;
-  border-radius: 10px;
-  margin-left: 0.246%;
-  background: #FFFF66;
-  text-align: center;
-  line-height: 2.1;
-  font-size: 1vw; 
-}
-.last-coef-lose {
-  float: left;
-  width: 5%;
-  height: 93%;
-  border-radius: 10px;
-  margin-left: 0.246%;
-  background: #FF2400;
-  text-align: center;
-  line-height: 2.1; 
-  font-size: 1vw;
-}
-.animation-main {
-  width: 99.1%;
-  height: 75%;
-  background: #19343D;
-  border-radius: 10px;
-  margin: 0.5%;
-}
-.statistics {
-  width: 99.1%;
-  height: 21%;
-  background: #19343D;
-  border-radius: 10px;
-  margin: 0.5%;
-  padding-top: 0.7%;
-  padding-left: 1.5%; 
-}
-.statistic1 {
-  float: left;
-  width: 32.1%;
-  height: 90%;
-  background: #1DBBF0;
-  border-radius: 10px;
-  padding-left: 1%;
-  text-align: center;
-  line-height: 2.5;
-  font-size: 1vw;
-  white-space: normal;
-  word-break: break-word;
-  margin-top: 0.2%; 
-}
-.statistic2 {
-  float: left;
-  width: 32.1%;
-  height: 90%;
-  background: #1DBBF0;
-  border-radius: 10px;
-  margin-left: 1%;
-  text-align: center;
-  line-height: 2.5;
-  font-size: 1vw;
-  white-space: normal;
-  word-break: break-word; 
-  margin-top: 0.2%; 
-}
-.statistic3 {
-  float: left;
-  width: 32.1%;
-  height: 90%;
-  background: #1DBBF0;
-  border-radius: 10px;
-  margin-left: 1%;
-  text-align: center;
-  line-height: 2.5;
-  font-size: 1vw;
-  white-space: normal;
-  word-break: break-word; 
-  margin-top: 0.2%; 
-}
-.bets-section {
-  overflow-y: scroll;
-  width: 99%;
-  height: 45%;
-  margin: 0.5%;
-  border-radius: 10px;
-  background-size: cover;
-  background-attachment: fixed; 
-  position: relative;
-}
-.bets-one {
-  width: 79.5vw;
-  height: 5vw;
-  border-radius: 10px;
-  background: #69D9FF;
-  margin-bottom: 0.5%;
-  margin-right: 0.5%;
-  padding-top: 0.5%;
-}
-.bets-photo {
-  float: left;
-  width: 6%;
-  height: 91%;
-  border-radius: 10px;
-  background: #19343D;
-  margin-left: 1%;
-}
-.bets-your {
-  float: left;
-  width: 6%;
-  height: 91%;
-  border-radius: 10px;
-  background: #19343D;
-  margin-left: 1%;
-}
-.bets-money {
-  float: left;
-  width: 6%;
-  height: 91%;
-  border-radius: 10px;
-  background: #19343D;
-  margin-left: 65%;
-}
-.bets-win {
-  float: left;
-  width: 6%;
-  height: 91%;
-  border-radius: 10px;
-  background: #19343D;
-  margin-left: 1%;
-}
-.bets-result {
-  float: left;
-  width: 6%;
-  height: 91%;
-  border-radius: 10px;
-  background: #19343D;
-  margin-left: 1%;
-}
-.button-interface-buy {
-  width: 100%;
-  height: 100%;
-  font-size: 1vw;
-}
-.button-interface-derive {
-  width: 100%;
-  height: 100%;
-  font-size: 1vw;
-}
-
-@media screen and (max-width: 1023px) {
   header {
+    /*-webkit-box-pack: justify;
+    display: flex;*/
+  /*  height: 10vh;*/
     height: 12.3%;
     width: 100%;
     background: #1DBBF0;
   }
+  /*p {
+    height: auto;
+    width: 100%;
+  }*/
+  .row {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    /*height: 100%;*/
+  }
+  .container-fluid {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+
+  }
+  .wrap {
+    display: block;
+    width: 100%;
+    height: auto; 
+    padding: 1rem;
+  }
+  .logo_cl {
+    height: 6vw;
+    width: 85%;
+    padding: 1%;
+  }
+  button {
+    background: #D9941A;
+    width: 100%;
+    height: 100%;
+  }
+  .button-steam {
+    white-space: normal;
+    word-break: break-word;
+    background: #007A47;
+    height: 4vw;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 0.8vw; 
+  }
+  .button-steam:before {
+    content: "ПОДКЛЮЧИТЬСЯ ЧЕРЕЗ STEAM";
+  }
+  /*@media screen and (max-width: 1023px) {
+    .button-steam:before {
+      content: "STEAM";
+    }
+    .button-steam {
+    white-space: normal;
+    word-break: break-word;
+    background: #007A47;
+    height: 75%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 0.8vw;
+    width: 10px; 
+  }*/
+  }
+  .main-content {
+    height: 88%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+  }
+  .main1 {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+  }
+  .main2 {
+    padding-left: 0%;
+    padding-right: 1%;
+    margin: 0%;
+    height: 100%;
+  }
+  .chat-section {
+    width: 100%;
+    background: #66CFF2;
+    height: 87.7vh;
+  }
+  .chat {
+    overflow-y: scroll;
+    width: 100%;
+    height: 87%;
+    background: #66CFF2;
+    position: relative;
+    display: block;
+  }
+  .playground {
+    height: 87.7vh;
+    background: #2F6070;
+    padding: 0%;
+    margin: 0%;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    display: block;
+  }
+  .message {
+    width:14vw;
+    height:3vw;
+    background: #1793BD;
+    border-radius: 8px;
+    margin-left: 2.5%;
+    margin-right: 4%;
+    padding-top: 1.6%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-top: 4%; 
+  }
+  .photo-chat {
+    width: 100%;
+    height: 90%;
+    background: #FFFFFF;
+    border-radius: 8px; 
+  }
+
+  .text-chat {
+    width: 100%;
+    height: 90%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    text-align: right;
+    font-size: 0.8vw;
+    white-space: normal;
+    word-break: break-word; 
+  }
+  .message-input {
+    width:98%;
+    height:2.6vw;
+    background: #1793BD;
+    border-radius: 8px;
+    margin-left: 1.5%;
+    padding-top: 1.6%;
+    padding-left: 1.5%;
+    padding-bottom: 1.5%;
+    margin-bottom: 1.6%;
+    margin-top: 4%; 
+  }
+  .form-message-input {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    font-size: 0.8vw;
+    white-space: normal;
+  }
+  .button-message-input {
+    width: 100%;
+    padding-left: 2%;
+    margin: 0%;
+    /*min-height: 2rem;*/
+  }
+
+  .input-text {
+    width: 100%;
+    height: 100%;
+    font-size: 0.8vw;
+    white-space: normal;
+
+  }
+  .button-chat {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+  }
+  /*.img_sent {*/
+  /*  min-width: 15px;
+    min-height: 15px;
+  }*/
+  .crush-main {
+    width: 100%;
+    height: 20vw;
+    background: #4B99B3;
+    border-radius: 0px 0px 8px 8px;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+  .crush-roul {
+    float: left;
+    height: 90%;
+    width: 70%;
+    background: #306273;
+    border-radius: 10px;
+  }
+  .interface {
+    float: left;
+    height: 90%;
+    width: 27%;
+    background: #6BDAFF;
+    border-radius: 10px;
+    margin-left: 1%;
+
+  }
+  .skins {
+    width: 100%;
+    height: 80%;
+  }
+  .inventory {
+    margin: 0%;
+    padding:0%;
+    font-size: 300%;
+    text-align: center;
+    line-height: 5.5;
+    font-size: 2.5vw;
+  }
+  .buy-skins {
+    float: left;
+    width: 48.5%;
+    height: 18%;
+    background: #306273;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: 0.5%;
+  }
+  .derive {
+    float: left;
+    width: 48.5%;
+    height: 18%;
+    background: #306273;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: 0.5%;
+  }
+  .animation {
+    float: left;
+    height: 89%;
+    width: 65%;
+    border-radius: 10px;
+    background: #244E5C;
+    margin: 1.5%;
+  }
+  .numbers {
+    float: left;
+    height: 89%;
+    width: 30.5%;
+    border-radius: 10px;
+    background: #244E5C;
+    margin-top: 1.5%;
+  }
+  .coef {
+    height: 53%;
+    width: 96%;
+    margin: 2%;
+    border-radius: 10px;
+    background: #19343D;
+  }
+  .your-skin {
+    float: left;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2.8vw;
+    white-space: normal;
+    line-height: 2.5;
+  }
+  .your-win {
+    float: left;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2.8vw;
+    white-space: normal;
+    line-height: 2.5;
+  }
+  .your-skin-2 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1vw;
+  }
+  .your-win-2 {
+    float: left;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1vw;
+  }
+  .button-coef {
+    height: 20%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 1%; 
+  /*  padding: 1%;*/
+    width: 22.5%;
+    background: #69D9FF;
+    font-size: 1vw;
+  }
+  .input-coef {
+    float: left;
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+  }
+  .button-coef-big {
+    float: left;
+    width: 64%;
+    height: 20%;
+    margin-left: 2%;
+    font-size: 1vw;
+  }
+  .last-coef-menu {
+    width: 98.7%;
+    height: 2.5vw;
+    background: #4B99B3;
+    border-radius: 10px;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding-top: 0.2%;
+    text-align: center;
+  }
+  .last-coef-win {
+    float: left;
+    width: 5%;
+    height: 93%;
+    border-radius: 10px;
+    margin-left: 0.246%;
+    background: #0BDA51;
+    text-align: center;
+    line-height: 2.1;
+    font-size: 1vw; 
+  }
+  .last-coef-middle {
+    float: left;
+    width: 5%;
+    height: 93%;
+    border-radius: 10px;
+    margin-left: 0.246%;
+    background: #FFFF66;
+    text-align: center;
+    line-height: 2.1;
+    font-size: 1vw; 
+  }
+  .last-coef-lose {
+    float: left;
+    width: 5%;
+    height: 93%;
+    border-radius: 10px;
+    margin-left: 0.246%;
+    background: #FF2400;
+    text-align: center;
+    line-height: 2.1; 
+    font-size: 1vw;
+  }
+  .animation-main {
+    width: 99.1%;
+    height: 75%;
+    background: #19343D;
+    border-radius: 10px;
+    margin: 0.5%;
+  }
+  .statistics {
+    width: 99.1%;
+    height: 21%;
+    background: #19343D;
+    border-radius: 10px;
+    margin: 0.5%;
+    padding-top: 0.7%;
+    padding-left: 1.5%; 
+  }
+  .statistic1 {
+    float: left;
+    width: 32.1%;
+    height: 90%;
+    background: #1DBBF0;
+    border-radius: 10px;
+    padding-left: 1%;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1vw;
+    white-space: normal;
+    word-break: break-word;
+    margin-top: 0.2%; 
+  }
+  .statistic2 {
+    float: left;
+    width: 32.1%;
+    height: 90%;
+    background: #1DBBF0;
+    border-radius: 10px;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1vw;
+    white-space: normal;
+    word-break: break-word; 
+    margin-top: 0.2%; 
+  }
+  .statistic3 {
+    float: left;
+    width: 32.1%;
+    height: 90%;
+    background: #1DBBF0;
+    border-radius: 10px;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 2.5;
+    font-size: 1vw;
+    white-space: normal;
+    word-break: break-word; 
+    margin-top: 0.2%; 
+  }
+  .bets-section {
+    overflow-y: scroll;
+    width: 99%;
+    height: 45%;
+    margin: 0.5%;
+    border-radius: 10px;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+  }
+  .bets-one {
+    width: 79.5vw;
+    height: 5vw;
+    border-radius: 10px;
+    background: #69D9FF;
+    margin-bottom: 0.5%;
+    margin-right: 0.5%;
+    padding-top: 0.5%;
+  }
+  .bets-photo {
+    float: left;
+    width: 6%;
+    height: 91%;
+    border-radius: 10px;
+    background: #19343D;
+    margin-left: 1%;
+  }
+  .bets-your {
+    float: left;
+    width: 6%;
+    height: 91%;
+    border-radius: 10px;
+    background: #19343D;
+    margin-left: 1%;
+  }
+  .bets-money {
+    float: left;
+    width: 6%;
+    height: 91%;
+    border-radius: 10px;
+    background: #19343D;
+    margin-left: 65%;
+  }
+  .bets-win {
+    float: left;
+    width: 6%;
+    height: 91%;
+    border-radius: 10px;
+    background: #19343D;
+    margin-left: 1%;
+  }
+  .bets-result {
+    float: left;
+    width: 6%;
+    height: 91%;
+    border-radius: 10px;
+    background: #19343D;
+    margin-left: 1%;
+  }
+  .button-interface-buy {
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+  }
+  .button-interface-derive {
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+  }
+
+
+@media screen and (max-width: 1023px) {
+  header {
+    height: 9vw;
+    width: 100%;
+    background: #1DBBF0;
+  }
+  .wrap {
+    display: block;
+    width: 100%;
+    height: auto; 
+  }
+  .button-steam {
+    white-space: normal;
+    background: #007A47;
+    height: 80%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 1vw; 
+  }
+  footer{
+    width: 100%;
+    height: 30%;
+  }
+  .message {
+    width: 100%;
+    height: 20%;
+  
+  }
+  .form-message-input {
+    width: 100%;
+    height: 20%;
+    padding: 0%;
+    margin: 0%;
+    font-size: 0.8vw;
+    white-space: normal;
+  }
+  
 }
