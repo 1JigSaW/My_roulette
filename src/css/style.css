@@ -1,4 +1,6 @@
-
+  .mob_numbers_and_inventory {
+    display: none;
+  }
   footer {
     display: none;
   }
@@ -201,7 +203,7 @@
   }
   .crush-roul {
     float: left;
-    height: 90%;
+    height: 80%;
     width: 70%;
     background: #306273;
     border-radius: 10px;
@@ -524,6 +526,27 @@
     height: 8vw;
     width: 85%;  
   }
+  .main-content {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .playground {
+    height: 100%;
+    background: #2F6070;
+    padding: 0%;
+    margin: 0%;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    display: block;
+  }
+  .main1 {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+  }
   footer {
     width: 100%;
     height: 30%;
@@ -533,6 +556,54 @@
     height: 20%;
   
   }
+  .crush-main {
+    width: 100%;
+    height: 85vw;
+    background: #4B99B3;
+    border-radius: 0px 0px 8px 8px;
+    padding-top: 1%;
+    padding-left: 2%;
+  }
+  .crush-roul {
+    float: left;
+    height: 95%;
+    width: 98%;
+    background: #306273;
+    border-radius: 10px;
+  }
+  .interface {
+    display: none;
+  }
+  .animation {
+    float: left;
+    height: 55%;
+    width: 97%;
+    border-radius: 10px;
+    background: #244E5C;
+    margin: 1.5%;
+  }
+  .numbers {
+    float: left;
+    height: 39%;
+    width: 97%;
+    border-radius: 10px;
+    background: #244E5C;
+    margin-top: 0.5%;
+    margin: 1.5%;
+  }
+  .button-coef-big {
+    float: left;
+    width: 64%;
+    height: 10%;
+    margin-left: 2%;
+    font-size: 1vw;
+  }
+  .input-coef {
+    float: left;
+    width: 30%;
+    height: 10%;
+    margin-left: 2%;
+  }
   .form-message-input {
     width: 100%;
     height: 20%;
@@ -541,5 +612,41 @@
     font-size: 0.8vw;
     white-space: normal;
   }
-  
+  .chat-section {
+    display: none;
+  }
+  .bets-section {
+    display: none;
+  }
+  .playground {
+    height: 113vh;
+    background: #2F6070;
+    padding: 0%;
+    margin: 0%;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    display: block;
+  }
+  .mob_numbers_and_inventory {
+    width: 100%;
+  }
+/*  .numbers {
+    display: none;
+  }*/
+  .mob_numbers {
+    width: 100%;
+  }
+/*  .interface {
+    display: none;
+  }*/
+  .last-coef-menu {
+    width: 98.7%;
+    height: 3.5vw;
+    background: #4B99B3;
+    border-radius: 10px;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    padding-top: 0.2%;
+    text-align: center;
+  }
 }
